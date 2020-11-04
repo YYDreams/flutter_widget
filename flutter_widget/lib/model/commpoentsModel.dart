@@ -4,6 +4,7 @@ enum CommpoentModelType{
   CommpoentModelTypeRow,
   CommpoentModelTypeStack,
   CommpoentModelTypeListView,
+  CommpoentModelTypeGridView,
 }
 
 
@@ -27,6 +28,9 @@ final List<CommpoentsModel> commpoentsList = [
   CommpoentsModel(title: "Stack",modelType: CommpoentModelType.CommpoentModelTypeStack),
 
   CommpoentsModel(title: "ListView",modelType: CommpoentModelType.CommpoentModelTypeListView),
+
+  CommpoentsModel(title: "GridView",modelType: CommpoentModelType.CommpoentModelTypeGridView),
+
 
 
 ];

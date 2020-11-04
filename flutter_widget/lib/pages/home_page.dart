@@ -3,6 +3,7 @@ import 'package:flutter_widget/model/commpoentsModel.dart';
 import 'row_widget.dart';
 import 'Stack_widget.dart';
 import 'ListView_widget.dart';
+import 'GridView_widget.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -32,6 +33,10 @@ class HomePage extends StatelessWidget {
     } else if (modelType == CommpoentModelType.CommpoentModelTypeListView) {
 
       Navigator.push(context, MaterialPageRoute(builder: (context) => ListViewPage()));
+
+    }else if (modelType == CommpoentModelType.CommpoentModelTypeGridView) {
+
+      Navigator.push(context, MaterialPageRoute(builder: (context) => GridViewPage()));
     }
   }
 
